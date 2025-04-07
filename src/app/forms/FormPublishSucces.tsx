@@ -19,7 +19,7 @@ type Props = {
 };
 
 const FormPublishSucces = (props: Props) => {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ;
   const { toast } = useToast();
 
   const copyToClipboard = () => {
