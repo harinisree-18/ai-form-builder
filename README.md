@@ -33,7 +33,7 @@ This is an AI-powered form builder application built using Next.js, Next-auth, S
 
    ```bash
    cd your_repo
-   npm intall
+   npm install
    ```
 
 3. **Set Up Environment Variables:**
@@ -44,6 +44,9 @@ This is an AI-powered form builder application built using Next.js, Next-auth, S
     GOOGLE_CLIENT_SECRET=
     AUTH_SECRET=
     DATABASE_URL=
+    AUTH_TRUST_HOST=
+    NEXT_PUBLIC_BASE_URL=
+   
    ```
 
 ## Preview
